@@ -1,0 +1,5 @@
+isPrime = (num) ->
+  return false if ( num == 0 or num ==1 ) 
+  for i in [2..num]
+    return false if num % i
+  return true
